@@ -6,7 +6,7 @@ It was created using **Draw.io** and exported as a `.png` file for inclusion in 
 ---
 
 ## Diagram
-![Lab Network Diagram](../images/network-diagram.png)
+![Lab Network Diagram](../ADDS_LAB.png)
 
 ---
 
