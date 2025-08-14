@@ -124,4 +124,4 @@ At this stage, my lab had a fully functional domain with user management, automa
 
 ---
 
-[ Back: Pre-Active Directory Configuration (Critical Setup Steps](Pre-Active-Directory-Configuration-(Critical-Setup-Steps).md) | [ Next: Windows 10 (Client1) Setup](06-Windows-10-Setup.md)
+[ Back: Pre-Active Directory Configuration (Critical Setup Steps)](Pre-Active-Directory-Configuration-(Critical-Setup-Steps).md) | [ Next: Windows 10 (Client1) Setup](06-Windows-10-Setup.md)
