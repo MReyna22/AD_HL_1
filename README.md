@@ -21,7 +21,7 @@ The lab simulates a small enterprise network environment, including:
 3. [Network Diagram](sections/03-network-diagram.md)
 4. [Pre-Active Directory Configuration (Critical Setup Steps)](sections/04-Computer-and-Second-Ethernet-Config.md)
 5. [Active Directory Setup](sections/05-AD-Setup.md)
-6. [Results & Lessons Learned](sections/06-results.md)
+6. [Windows 10 (Client1) Setup](sections/06-Win10Setup.md)
 
 ---
 
