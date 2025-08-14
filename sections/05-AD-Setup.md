@@ -121,3 +121,7 @@ To help recruiters and viewers follow along visually, I included:
 ---
 
 At this stage, my lab had a fully functional domain with user management, automatic IP assignment, and routing capability — all configured manually, just like in a real enterprise environment.
+
+---
+
+[ Back: Pre-Active Directory Configuration (Critical Setup Steps](Pre-Active-Directory-Configuration-(Critical-Setup-Steps).md) | [ Next: Windows 10 (Client1) Setup](06-Windows-10-Setup.md)
