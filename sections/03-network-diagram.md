@@ -24,4 +24,4 @@ It was created using **Draw.io** and exported as a `.png` file for inclusion in 
 
 ---
 
-[ Back to Environment Setup](02-environment-setup.md) | [ Next: Pre ADDS Setup](04-Computer-and-Second-Ethernet-Config.md)
+[ Back to Environment Setup](02-environment-setup.md) | [ Next: Pre-Active Directory Configuration (Critical Setup Steps)](04-Computer-and-Second-Ethernet-Config.md)
