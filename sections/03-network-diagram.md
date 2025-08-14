@@ -24,10 +24,4 @@ It was created using **Draw.io** and exported as a `.png` file for inclusion in 
 
 ---
 
-## Notes
-- The diagram is stored in [`images/`](../images) for easy reference.
-- The original Draw.io file can be included in this repository under `/images` or `/resources` for future editing.
-
----
-
 [ Back to Environment Setup](02-environment-setup.md) | [ Next: Active Directory Setup](04-ad-setup.md)
