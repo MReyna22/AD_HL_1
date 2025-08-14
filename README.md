@@ -19,7 +19,7 @@ The lab simulates a small enterprise network environment, including:
 1. [Overview](sections/01-overview.md)
 2. [Environment Setup](sections/02-environment-setup.md)
 3. [Network Diagram](sections/03-network-diagram.md)
-4. [Pre-ADDS Setup](sections/04-Computer-and-Second-Ethernet-Config.md)
+4. [Pre-Active Directory Configuration (Critical Setup Steps)](sections/04-Computer-and-Second-Ethernet-Config.md)
 5. [PowerShell Automation](sections/05-powershell-automation.md)
 6. [Results & Lessons Learned](sections/06-results.md)
 
