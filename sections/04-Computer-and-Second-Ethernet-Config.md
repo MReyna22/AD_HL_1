@@ -67,3 +67,5 @@ To make this section visually clear, I included screenshots of:
 ![VirtualBox Network Settings](../images/vbox-network-settings.png)  
 ![Adapter-IPv4 settings](../images/Adapter-IPv4_settings.png)  
 
+[ Back to Environment Setup](02-environment-setup.md) | [ Next: Active Directory Setup](05-ADDS-Setup.md)
+
