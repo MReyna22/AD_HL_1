@@ -58,21 +58,26 @@ The result is an Active Directory environment that is:
 -Here is the script I made: 
 [Script for creating new AD users with random password assignment and information log](../Scripts/Create_New_ADUser.ps1) 
 
-## 📸 Screenshots
+## Screenshots
 
 Below are screenshots showing the OU structure, security groups, and user accounts as configured in this section.
 
-**OU Structure**
+**-OU Structure**
+
 ![Screenshot of OU Structure](../images/screenshots/ou-structure.png)
 
-**Security Groups**
+**-Security Groups**
+
 ![Screenshot of Security Groups](../images/screenshots/security-groups.png)
 
-**User Accounts**
+**-User Accounts**
+
 ![Screenshot of User Accounts](../images/screenshots/user-accounts.png)
 
-**PowerShell Automation Output**
+**-PowerShell Automation Output**
+
 ![Screenshot of PowerShell Script Results](../images/screenshots/powershell-output.png)
 
-**GPO practice for all user accounts**
+**-GPO practice for all user accounts**
+
 ![Screenshot of GPO Results](../images/screenshots/GPO_LockScreen.png)
