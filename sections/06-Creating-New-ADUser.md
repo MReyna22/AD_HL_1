@@ -1,4 +1,4 @@
- – Creating Users, Groups, and Organizational Units (OUs)
+## Creating Users, Groups, and Organizational Units (OUs)
 
 With the domain fully operational, I shifted focus to building out the Active Directory structure for users, groups, and OUs. This step is critical in any enterprise environment because it lays the foundation for security, scalability, and daily administrative efficiency.
 
