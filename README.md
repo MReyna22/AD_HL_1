@@ -22,6 +22,7 @@ The lab simulates a small enterprise network environment, including:
 4. [Pre-Active Directory Configuration (Critical Setup Steps)](sections/04-Computer-and-Second-Ethernet-Config.md)
 5. [Active Directory Setup](sections/05-AD-Setup.md)
 6. [Creating New ADUser](sections/06-Creating-New-ADUser.md)
+7. [Win10 Setup](sections/07-Win10-Setup.md)
 
 ---
 
