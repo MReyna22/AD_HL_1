@@ -45,7 +45,7 @@ Once connectivity was confirmed, I joined the Windows 10 client to the domain.
 
 ### 6.4 Verifying the Join
 After rebooting, I logged in using a random domain account:
-- **Username**: `MREYNA\a-mreyna`
+- **Username**: `ldominguez`
 - Confirmed the machine appeared in **Active Directory Users and Computers** under the **Computers** container.
 
 ---
@@ -54,11 +54,10 @@ After rebooting, I logged in using a random domain account:
 I included the following screenshots for this section:
 - **Windows 10 IP configuration showing DHCP lease**
 - **Ping and nslookup results**
-- **Domain join confirmation dialog**
 - **Computer object in ADUC**
 
 ![Win10 DHCP](images/win10-dhcp.png)  
-![Domain Join](images/domain-join.png)  
+![Ping Results](images/ping-results.png)  
 ![ADUC Computer Object](images/aduc-computer.png)
 
 ---
