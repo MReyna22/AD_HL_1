@@ -56,9 +56,9 @@ I included the following screenshots for this section:
 - **Ping and nslookup results**
 - **Computer object in ADUC**
 
-![Win10 DHCP](images/screenshots/win10-dhcp.png)  
-![Ping Results](images/screenshots/ping-results.png)  
-![ADUC Computer Object](images/screenshots/aduc-computer.png)
+![Win10 DHCP](../images/screenshots/win10-dhcp.png)  
+![Ping Results](../images/screenshots/ping-results.png)  
+![ADUC Computer Object](../images/screenshots/aduc-computer.png)
 
 ---
 
