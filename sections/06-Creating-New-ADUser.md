@@ -34,7 +34,26 @@ For a single user creation, I created a PowerShell script that allows for a more
 These automation not only mirrors real-world onboarding workflows but also demonstrates the importance of scripting in large-scale and security specifications in operations. 
 
 ### GPO practice for all user accounts
-As a fun excersise to get familiar with creating GPOs, I enabled **Force a specific default lock screen and logon image**, **Prevent changing Desktop background**, **Force specific screen saver**, and **Prevent changing lock screen and logon image**. That way, authorized domain users and computers are welcomed with a baby raccoon wallpaper and cannot change it if they feel indifferent about raccoons. 
+As a fun excersise to get familiar with creating GPOs, I set the domain desktop wallpaper to a baby raccoon. 
+
+1. On the Windows Server VM, sign in using your **Administartor** account.
+2. On the **Server Manager** page, go to the left side and click on **File and storage Services**.
+3. On the **Servers** page, go to **Shares** and click on it.
+4. There should be three share folders. Right click on **NETLOGON** and click on **Open Share**.
+5. The File Explorer for **NETLOGON** should appear. Minimize that page.
+6. Click on **Microsoft Edge** to browse for a picture.
+7. I chose a baby raccoon, you can choose whatever you like. Save your preferred image on your desktop.
+8. Open the **NETLOGON** window and copy your photo onto the there from your desktop. Once the photo is on there, right click on the photo, then click on **Copy as path**. 
+9. Going back to Server Manager window, click on **Tools**, click on **Group Policy Management**.
+10. So that the GPO affects everyone in the domain, I'm going to expand the **Domains** folder, right click on my domain, click on **Create a GPO in this domain, and Link it here...**.
+11. Name the GPO **Domain Wallpaper**. For **Source Starter GPO** leave it at (none). Click OK.
+12. It should be added under the domain forest, right click on the GPO and click **Edit...**
+13. Click on **User Configuration**, **Policies**, **Administrative Template**, **Desktop**, **Desktop**, double click on **Desktop Wallpaper**.
+14. Change to **Enable**. Under **Options** and **Wallpaper Name:** Paste the path of the photo. **MAKE SURE TO REMOVE THE QUOTATIONS FROM BOTH ENDS OF THE PATH OR IT WILL NOT WORK.**
+15. Click **Apply** then OK.
+16. To prevent users from changing the wallpaper, under **User Configuration**, **Policies**, **Administrative Template**, **Control Panel**, **Personalization**, click on **Prevent changing desktop background**, then click **Enable**, **Apply**, **OK**.
+17. Exit out until you are on the main **Group Policy Management** page displaying your new GPO for the whole domain server.
+18. On your Windows 10 VM, sign in to a random domain user. After logging in, you should see that the desktop has now changed to your photo.  
 
 ### Outcome
 The result is an Active Directory environment that is:
