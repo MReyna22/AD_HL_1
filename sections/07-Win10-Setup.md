@@ -30,16 +30,21 @@ I verified communication with the Domain Controller by:
 Once connectivity was confirmed, I joined the Windows 10 client to the domain.
 
 **Steps:**
-1. Opened **System Properties** (`sysdm.cpl`).
-2. Clicked **Change** under Computer Name.
-3. Selected **Domain** and entered: `mreyna.com`.
+1. Right click on **Start Icon**.
+2. Clicked **System**.
+3. Scroll down to **Related Settings** and clinked on: **Rename this PC (advanced).
 4. Entered the credentials for the domain admin account (`a-mreyna`).
-5. Restarted the system after the success message.
+5. You should be on the **Computer Name** tab.
+6. The last option on that tab should start with **To rename this computer or change its domain...**, click **Change** to the right of that.
+7. I changed my computer name to (`CLIENT1`).
+8. Under **Member of**, Click on **Domain:**, and enter your Domain name. Mine is (`mreyna.com`). Then click OK.
+9. Follow the prompts until you get a Welcome message.
+10. Close everything out and restart your computer.
 
 ---
 
 ### 6.4 Verifying the Join
-After rebooting, I logged in using the domain account:
+After rebooting, I logged in using a random domain account:
 - **Username**: `MREYNA\a-mreyna`
 - Confirmed the machine appeared in **Active Directory Users and Computers** under the **Computers** container.
 
