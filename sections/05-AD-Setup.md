@@ -82,19 +82,19 @@ I verified the DHCP service by confirming that my Windows 10 client automaticall
 To help visualize the configuration, I’ve included screenshots of the process:
 
 **ADDS Installation Wizard**  
-![ADDS Installation](../images/adds-installation.png)  
+![ADDS Installation](../images/screenshots/adds-installation.png)  
 
 **Domain Promotion Settings**  
-![Domain Promotion](../images/domain-promotion.png)  
+![Domain Promotion](../images/screenshots/domain-promotion.png)  
 
 **Domain Admin Account Creation**  
-![Domain Admin Account](../images/domain-admin.png)  
+![Domain Admin Account](../images/screenshots/domain-admin.png)  
 
 **Remote Access Setup**  
-![Remote Access Setup](../images/remote-access.png)  
+![Remote Access Setup](../images/screenshots/remote-access.png)  
 
 **DHCP Scope Configuration**  
-![DHCP Config](../images/dhcp-config.png)  
+![DHCP Config](../images/screenshots/dhcp-config.png)  
 
 ---
 
