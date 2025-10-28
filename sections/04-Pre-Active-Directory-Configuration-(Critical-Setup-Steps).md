@@ -63,9 +63,9 @@ To make this section visually clear, I included screenshots of:
 - Windows Server **Network Connections** with the `_Internal_` adapter highlighted
 - IPv4 static IP configuration window
 
-![Rename pc Screenshot](../images/rename-pc.png)  
-![VirtualBox Network Settings](../images/vbox-network-settings.png)  
-![Adapter-IPv4 settings](../images/Adapter-IPv4_settings.png)  
+![Rename pc Screenshot](../images/screenshots/rename-pc.png)  
+![VirtualBox Network Settings](../images/screenshots/vbox-network-settings.png)  
+![Adapter-IPv4 settings](../images/screenshots/Adapter-IPv4_settings.png)  
 
 [ Back: Environment Setup](02-environment-setup.md) | [ Next: Active Directory Setup](05-AD-Setup.md)
 
